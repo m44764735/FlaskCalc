@@ -6,7 +6,7 @@ RUN mkdir -p /usr/src/main1/templates
 RUN mkdir -p /usr/src/main1
 WORKDIR /usr/src/main1
 
-COPY my-form.html /usr/src/main1/templates/
+COPY templates/my-form.html /usr/src/main1/templates/
 COPY requirements.txt /usr/src/main1/
 RUN pip install --no-cache-dir -r requirements.txt
 
