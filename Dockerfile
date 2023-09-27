@@ -10,4 +10,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY main1.py /usr/src/main1/main1.py
 
-CMD [ "python", "main1.py" ]
+CMD [ "python3", "main1.py" ]
